@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+    - name: google_sheets_sync
+      database: demo_db
+      schema: google_sheets_sync
+      tables:
+        - name: _rows
