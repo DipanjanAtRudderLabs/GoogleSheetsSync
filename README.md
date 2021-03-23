@@ -21,6 +21,7 @@ This is done by
 * calculating the **minimum** or *start* time for every run (i.e. every job_id/job_run_id combo) 
 * performing **rank()** operation on the start times with the start times in descending order i.e. latest first
 * taking the job_id/job_run_id cobination which has rank = 1
+* create the **latest snapshot** table using the records with the above job_id/job_run_id combination
 
 ### How to use the project
 
